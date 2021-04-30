@@ -2,7 +2,7 @@ package com.activedgetechnologies.test.service;
 
 
 import com.activedgetechnologies.test.dao.UserRepository;
-import com.activedgetechnologies.test.model.entity.User;
+import com.activedgetechnologies.test.model.user.User;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,9 +21,7 @@ public class UserService {
 
     @Autowired
     public UserService(UserRepository userRepository) {
-
         this.userRepository = userRepository;
-
     }
 
     public User findUserByEmail(String email) {

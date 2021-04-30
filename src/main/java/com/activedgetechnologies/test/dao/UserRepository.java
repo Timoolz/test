@@ -2,7 +2,7 @@ package com.activedgetechnologies.test.dao;
 
 
 
-import com.activedgetechnologies.test.model.entity.User;
+import com.activedgetechnologies.test.model.user.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.Query;

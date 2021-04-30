@@ -1,7 +1,7 @@
 package com.activedgetechnologies.test.config;
 
 
-import com.activedgetechnologies.test.model.entity.User;
+import com.activedgetechnologies.test.model.user.User;
 import com.activedgetechnologies.test.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

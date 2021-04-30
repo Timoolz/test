@@ -4,7 +4,7 @@ package com.activedgetechnologies.test.config.security;
 import com.activedgetechnologies.test.exception.InvalidJwtAuthenticationException;
 import com.activedgetechnologies.test.model.TokenInfo;
 import com.activedgetechnologies.test.model.TokenType;
-import com.activedgetechnologies.test.model.entity.User;
+import com.activedgetechnologies.test.model.user.User;
 import com.activedgetechnologies.test.model.user.UserResult;
 import com.activedgetechnologies.test.service.UserService;
 import io.jsonwebtoken.*;

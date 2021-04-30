@@ -1,4 +1,4 @@
-package com.activedgetechnologies.test.model.entity;
+package com.activedgetechnologies.test.model.user;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;

@@ -2,7 +2,6 @@ package com.activedgetechnologies.test.model.user;
 
 
 import com.activedgetechnologies.test.model.TokenInfo;
-import com.activedgetechnologies.test.model.entity.User;
 import lombok.Builder;
 import lombok.Data;
 
