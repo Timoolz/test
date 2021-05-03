@@ -22,9 +22,9 @@ import java.util.Date;
 public class Employee {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "partner_sequence")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "employee_sequence")
     @GenericGenerator(
-            name = "partner_sequence",
+            name = "employee_sequence",
             strategy = "com.activedgetechnologies.test.util.StringPrefixedSequenceIdGenerator",
             parameters = {
                     @org.hibernate.annotations.Parameter(name = StringPrefixedSequenceIdGenerator.INCREMENT_PARAM, value = "1"),
